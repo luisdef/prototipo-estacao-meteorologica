@@ -1,2 +1,1 @@
-# prototipo-estacao-meteorologica
-Protótipo da Estação Meteorológica do IFRS Campus Feliz.
+# Protótipo para Estação Meteorológica do IFRS Campus Feliz.
