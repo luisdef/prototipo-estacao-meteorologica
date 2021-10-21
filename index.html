@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="./assets/img/icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
@@ -15,23 +17,26 @@
     <nav>
         <img class="logo" src="./assets/img/logo.png" alt="Logo">
         <div class="bar">
-            <a href="./index.html">Início</a>
-            <a href="./view/projetos.html">Projetos</a>
-            <a href="./view/tutoriais.html">Tutoriais</a>
-            <a href="./view/equipe.html">Equipe</a>
-            <a href="./view/eventos.html">Eventos</a>
+            <a href="./index.html"><i class="fa fa-home"></i> Início</a>
+            <a href="./view/projetos.html"><i class="fa fa-microchip"></i> Projetos</a>
+            <a href="./view/tutoriais.html"><i class="fa fa-play-circle"></i> Tutoriais</a>
+            <a href="./view/equipe.html"><i class="fa fa-users"></i> Equipe</a>
+            <a href="./view/eventos.html"><i class="fa fa-trophy"></i> Eventos</a>
         </div>
     </nav>
 
     <section>
         <h1>Dados sobre o tempo atual</h1>
-        <a class="weatherwidget-io" href="https://forecast7.com/pt/n29d45n51d31/feliz/" data-label_1="Feliz, RS" data-font="Open Sans" data-icons="Climacons" data-theme="pure" data-basecolor="#f8f8f8" data-accent="rgba(1, 1, 1, 0.04)" data-highcolor="#180e0e" data-lowcolor="#101418" >Feliz, RS</a>
+        <a class="weatherwidget-io" href="https://forecast7.com/pt/n29d45n51d31/feliz/" data-label_1="Feliz, RS" data-font="Roboto" data-icons="Climacons" data-theme="pure" data-basecolor="#f8f8f8" data-accent="rgba(1, 1, 1, 0.04)" data-highcolor="#180e0e" data-lowcolor="#101418" ></a>
         <script>
-            !function(d,s,id) {
-                var js,fjs = d.getElementsByTagName(s)[0];
-                if(!d.getElementById(id)){js=d.createElement(s);
-                    js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
-                    fjs.parentNode.insertBefore(js,fjs);
+            !function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = 'https://weatherwidget.io/js/widget.min.js';
+                    fjs.parentNode.insertBefore(js, fjs);
                 }
             }(document,'script','weatherwidget-io-js');
         </script>
@@ -46,7 +51,7 @@
     </section>
 
     <section>
-        <h1>Tabela dos componentes usados no projeto e seu respectivos preços(aproximados):</h1>
+        <h1>Tabela dos componentes usados no projeto e seu respectivos preços (aproximados):</h1>
         <table style="text-align: justify; font-size: x-large;" border="4" widht="500">
             <tbody><tr>
                 <th>Nome</th>
