@@ -1,31 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="../assets/img/icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <?php include './layout/global_head.php' ?>
+
     <title>Equipe</title>
 </head>
 <body>
-    <nav>
-        <img class="logo" src="../assets/img/logo.png" alt="Logo">
-        <div class="bar">
-            <a href="../index.html"><i class="fa fa-home"></i> Início</a>
-            <a href="./projetos.html"><i class="fa fa-microchip"></i> Projetos</a>
-            <a href="./tutoriais.html"><i class="fa fa-play-circle"></i> Tutoriais</a>
-            <a href="./equipe.html"><i class="fa fa-users"></i> Equipe</a>
-            <a href="./eventos.html"><i class="fa fa-trophy"></i> Eventos</a>
-        </div>
-    </nav>
+    <?php include './layout/cabecalho.php' ?>
 
-    <section>
+    <section class="main">
         <h1>Equipe</h1>
     </section>
     <section>
@@ -38,6 +22,10 @@
         <h4>Participantes atuais: </h4>
         <p>Andrius Nunes Zimmer</p>
         <p>Nícolas Rodrigues Silva </p>
+        <h4>Participantes voluntários:</h4>
+        <p>Luis Felipe Assmann</p>
+        <p>Matheus Persch</p>
+        <p>Otávio Maldaner</p>
     </section>
     <section>
         <h4>Ex participantes: </h4>
@@ -59,6 +47,6 @@
         <p>Diego Rafael Vieira</p>
     </section>
 
-
+    <?php include './layout/rodape.php' ?>
 </body>
 </html>
