@@ -1,60 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="../assets/img/icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <?php include './layout/global_head.php' ?>
+
     <title>Projetos</title>
 </head>
 <body>
-    <nav>
-        <img class="logo" src="../assets/img/logo.png" alt="Logo">
-        <div class="bar">
-            <a href="../index.html"><i class="fa fa-home"></i> Início</a>
-            <a href="./projetos.html"><i class="fa fa-microchip"></i> Projetos</a>
-            <a href="./tutoriais.html"><i class="fa fa-play-circle"></i> Tutoriais</a>
-            <a href="./equipe.html"><i class="fa fa-users"></i> Equipe</a>
-            <a href="./eventos.html"><i class="fa fa-trophy"></i> Eventos</a>
-        </div>
-    </nav>
+    <?php include './layout/cabecalho.php' ?>
 
-    <section>
+    <section class="main">
         <h1>Projetos</h1>
     </section>
     
     <section>
         <!-- Exemplo de cards -->
 
-        <div class="card">
-            <img src="../assets/img/projects/bmp180.png" alt="LM35" style="width:100%">
-            <div class="container">
-                <h4><b>Temperatura com LM35</b></h4>
-                <p>Criação de um sistema com o LM35 para medir a temperatura do ambiente.</p>
+        <a href="https://estacaometeorologicafeliz.blogspot.com/2018/05/sistema-de-temperatura.html" target="_blank">
+            <div class="card">
+                <img src="../assets/img/projects/bmp180.png" alt="LM35" style="width:100%">
+                <div class="container">
+                    <h4><b>Temperatura com LM35</b></h4>
+                    <p>Criação de um sistema com o LM35 para medir a temperatura do ambiente.</p>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="card">
-            <img src="../assets/img/projects/bmp180.png" alt="LM35" style="width:100%">
-            <div class="container">
-                <h4><b>Temperatura com LM35</b></h4>
-                <p>Criação de um sistema com o LM35 para medir a temperatura do ambiente.</p>
+        <a href="https://estacaometeorologicafeliz.blogspot.com/2018/05/sistema-de-temperatura.html" target="_blank">
+            <div class="card">
+                <img src="../assets/img/projects/bmp180.png" alt="LM35" style="width:100%">
+                <div class="container">
+                    <h4><b>Temperatura com LM35</b></h4>
+                    <p>Criação de um sistema com o LM35 para medir a temperatura do ambiente.</p>
+                </div>
             </div>
-        </div>
+        </a>
 
-        <div class="card">
-            <img src="../assets/img/projects/bmp180.png" alt="LM35" style="width:100%">
-            <div class="container">
-                <h4><b>Temperatura com LM35</b></h4>
-                <p>Criação de um sistema com o LM35 para medir a temperatura do ambiente.</p>
+        <a href="https://estacaometeorologicafeliz.blogspot.com/2018/05/sistema-de-temperatura.html" target="_blank">
+            <div class="card">
+                <img src="../assets/img/projects/bmp180.png" alt="LM35" style="width:100%">
+                <div class="container">
+                    <h4><b>Temperatura com LM35</b></h4>
+                    <p>Criação de um sistema com o LM35 para medir a temperatura do ambiente.</p>
+                </div>
             </div>
-        </div>
+        </a>
+
+        <a href="https://estacaometeorologicafeliz.blogspot.com/2018/05/sistema-de-temperatura.html" target="_blank">
+            <div class="card">
+                <img src="../assets/img/projects/bmp180.png" alt="LM35" style="width:100%">
+                <div class="container">
+                    <h4><b>Temperatura com LM35</b></h4>
+                    <p>Criação de um sistema com o LM35 para medir a temperatura do ambiente.</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://estacaometeorologicafeliz.blogspot.com/2018/05/sistema-de-temperatura.html" target="_blank">
+            <div class="card">
+                <img src="../assets/img/projects/bmp180.png" alt="LM35" style="width:100%">
+                <div class="container">
+                    <h4><b>Temperatura com LM35</b></h4>
+                    <p>Criação de um sistema com o LM35 para medir a temperatura do ambiente.</p>
+                </div>
+            </div>
+        </a>
 
 
 
@@ -237,5 +247,7 @@
         <h4>Montagem do circuito:</h4>
         <p>Conecte os componentes no Arduino como mostra a figura abaixo. Verifique cuidadosamente os cabos de ligação antes de ligar seu Arduino. Lembre-se que o Arduino deve estar desconectado do computador durante a montagem. Para ajustar a luminosidade do LCD utilize o potenciômetro.</p>
     </section>
+
+    <?php include './layout/rodape.php' ?>
 </body>
 </html>
