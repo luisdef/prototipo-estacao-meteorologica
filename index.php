@@ -54,7 +54,7 @@
     <section>
         <h1>Tabela dos componentes usados no projeto e seu respectivos preços (aproximados):</h1>
         <center>
-        <table style="text-align: justify; font-size: x-large;" border="4" width="100%">
+        <table class="componentes">
             <tbody>
                 <tr>
                     <th>Nome</th>
@@ -82,12 +82,12 @@
                 </tr>
                 <tr>
                 <td><b>Sensores:</b><br>
-                     -DHT22(Temperatura e umidade)<br>
-                     -LDR (Luminosidade)<br>
-                     -BMP180 (Pressão e temperatura)<br></td>
-                <td><br>-R$ 54,90<br>
-                    -R$ 1,50<br>
-                    -R$ 18,90<br></td>
+                      DHT22(Temperatura e umidade)<br>
+                      LDR (Luminosidade)<br>
+                      BMP180 (Pressão e temperatura)<br></td>
+                <td><br>R$ 54,90<br>
+                    R$ 1,50<br>
+                    R$ 18,90<br></td>
                 </tr>
                 <tr>
                 <th>Preço total</th>
