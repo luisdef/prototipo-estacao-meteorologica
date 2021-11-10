@@ -19,12 +19,59 @@ body {
     background-color: var(--cor-fundo-principal);
 }
 
+a {
+    text-decoration: none;
+}
+
+i {
+    padding-right: 3px;
+}
+
 h1, h2, h3, h4, h5, h6, th, td {
     color: var(--cinza-escuro);
 }
 
 p {
     color: var(--cinza);
+}
+
+.estacao-tempo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 1.1rem;
+    transition: 0.4s;
+}
+
+.estacao-tempo:hover {
+    background-color: #efe;
+}
+
+.icon-tempo {
+    width: 5rem;
+    height: auto;
+}
+
+.descricao-icon {
+    opacity: 0.8;
+    color: var(--cinza);
+    font-size: 0.9rem;
+}
+
+.icon-termometro, .icon-humidade, .icon-pressao {
+    width: 4rem;
+    height: auto;
+}
+
+.temperatura, .humidade, .pressao, .local {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .componentes {
@@ -166,6 +213,7 @@ footer {
     align-content: center;
     flex-wrap: nowrap;
     flex-direction: row;
+    margin-top: 2%;
 }
 
 footer a {
