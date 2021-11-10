@@ -11,36 +11,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/global.css">
-    <title>Estação</title>
+    <title>Estação Meteorológica</title>
 </head>
 <body>
 
     <nav>
         <a href="#"><img class="logo" src="./assets/img/logo.png" alt="Logo"></a>
         <div class="bar">
-            <a href="#"><i class="fa fa-home"></i> Início</a>
-            <a href="view/projetos.php"><i class="fa fa-microchip"></i> Projetos</a>
-            <a href="view/tutoriais.php"><i class="fa fa-play-circle"></i> Tutoriais</a>
-            <a href="view/equipe.php"><i class="fa fa-users"></i> Equipe</a>
-            <a href="view/eventos.php"><i class="fa fa-trophy"></i> Eventos</a>
+            <a href="#"><i class="fa fa-home"></i>Início</a>
+            <a href="view/projetos.php"><i class="fa fa-microchip"></i>Projetos</a>
+            <a href="view/tutoriais.php"><i class="fa fa-play-circle"></i>Tutoriais</a>
+            <a href="view/equipe.php"><i class="fa fa-users"></i>Equipe</a>
+            <a href="view/eventos.php"><i class="fa fa-trophy"></i>Eventos</a>
         </div>
     </nav>
     
     <section class="main">
         <h1>Dados sobre o tempo atual</h1>
-        <a class="weatherwidget-io" href="https://forecast7.com/pt/n29d45n51d31/feliz/" data-label_1="Feliz, RS" data-font="Roboto" data-icons="Climacons" data-theme="pure" data-basecolor="#f8f8f8" data-accent="rgba(1, 1, 1, 0.04)" data-highcolor="#180e0e" data-lowcolor="#101418" ></a>
-        <script>
-            !function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                
-                if (!d.getElementById(id)) {
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = 'https://weatherwidget.io/js/widget.min.js';
-                    fjs.parentNode.insertBefore(js, fjs);
-                }
-            }(document,'script','weatherwidget-io-js');
-        </script>
+
+        <div class="estacao-tempo">
+            <div class="local">
+                <img class="icon-tempo" src="assets/img/weather-icons/sun.png" alt="sol">
+                <h1>Feliz, RS</h1>
+            </div>
+
+            <div class="temperatura">
+                <p class="descricao-icon">temperatura</p>
+                <img class="icon-termometro" src="assets/img/weather-icons/celsius.png" alt="celcius">
+                <p>23°C</p>
+            </div>
+
+            <div class="humidade">
+                <p class="descricao-icon">humidade</p>
+                <img class="icon-humidade" src="assets/img/weather-icons/humidity.png" alt="humidade">
+                <p>65%</p>
+            </div>
+
+            <div class="pressao">
+                <p class="descricao-icon">pressão</p>
+                <img class="icon-pressao" src="assets/img/weather-icons/pressure.png" alt="pressao">
+                <p>1018,3 hPa</p>
+            </div>
+        </div>
     </section>
 
     <section>
