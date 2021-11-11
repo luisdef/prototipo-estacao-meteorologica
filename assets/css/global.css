@@ -39,10 +39,20 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
     background-color: white;
     border-radius: 8px;
     margin-top: 1.1rem;
     transition: 0.4s;
+}
+
+#data-tempo {
+    position: absolute;
+    bottom: -0.4rem;
+    right: 0.4rem;
+    font-size: 0.7rem;
+    opacity: 0.6;
+    margin-top: 2rem;
 }
 
 .estacao-tempo:hover {
@@ -60,7 +70,7 @@ p {
     font-size: 0.9rem;
 }
 
-.icon-termometro, .icon-humidade, .icon-pressao {
+.icon-termometro, .icon-umidade, .icon-pressao {
     width: 4rem;
     height: auto;
 }
@@ -135,10 +145,6 @@ img.logo {
 .bar a:hover {
     background-color: var(--cor-fundo-principal);
     color: black;
-}
-
-.weatherwidget-io {
-    border-radius: 4px;
 }
 
 section {
