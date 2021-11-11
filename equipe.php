@@ -9,7 +9,7 @@
 <body>
     <?php include './layout/cabecalho.php' ?>
 
-    <section class="main">
+    <section>
         <h1>Equipe</h1>
     </section>
     <center>
@@ -49,6 +49,7 @@
             <p>Diego Rafael Vieira</p>
         </section>
     </center>
+    
     <?php include './layout/rodape.php' ?>
 </body>
 </html>

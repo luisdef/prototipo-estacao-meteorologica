@@ -9,7 +9,7 @@
 <body>
     <?php include './layout/cabecalho.php' ?>
 
-    <section class="main">
+    <section>
         <h1>Tutoriais</h1>
     </section>
 

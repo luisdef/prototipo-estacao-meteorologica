@@ -1,36 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php include 'layout/global_head.php' ?>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/png" href="./assets/img/icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/global.css">
-    <title>Estação Meteorológica</title>
+    <title>Estação IFRS</title>
 </head>
 <body>
+    <?php include 'layout/cabecalho.php' ?>    
 
-    <nav>
-        <a href="#"><img class="logo" src="./assets/img/logo.png" alt="Logo"></a>
-        <div class="bar">
-            <a href="#"><i class="fa fa-home"></i>Início</a>
-            <a href="view/projetos.php"><i class="fa fa-microchip"></i>Projetos</a>
-            <a href="view/tutoriais.php"><i class="fa fa-play-circle"></i>Tutoriais</a>
-            <a href="view/equipe.php"><i class="fa fa-users"></i>Equipe</a>
-            <a href="view/eventos.php"><i class="fa fa-trophy"></i>Eventos</a>
-        </div>
-    </nav>
-    
-    <section class="main">
+    <section>
         <h1>Dados sobre o tempo atual</h1>
 
-        <?php include 'view/layout/painel_tempo.php';?>
-        
+        <?php include 'layout/painel_tempo.php' ?>
     </section>
 
     <section>
@@ -89,12 +70,17 @@
     </section>
 
     <section>
-        <h1>Um pouco sobre como tudo começou</h1>
+        <h1>Histórico do Projeto</h1>
         <p>O projeto de Ensino ocorre todo ano desde 2016, começou de uma forma básica com apenas alguns sensores como: DHT11, LDR, LM35 e BMP180.</p>
         <p>Em 2017 foram incorporados no projeto um pluviômetro de báscula digital, um anemômetro, além da montagem estrutural com canos de PVC.</p>
-        <p>Em 2018 foi criado o blog da Estação Meteorológica IFRS- Campus Feliz, com o objetivo de divulgar o projeto e a metodologia utilizada na construção da mesma.</p>
+        <p>Em 2018 foi criado o blog da Estação Meteorológica IFRS - Campus Feliz, com o objetivo de divulgar o projeto e a metodologia utilizada na construção da mesma.</p>
+        <p>Em 2019 realizou-se no dia 2 de setembro, uma visita técnica ao Inmet 8° DISME.</p>
+        <p>Em 2020, por causa do distanciamento social, as reuniões da estação tiveram que ser adaptadas de forma remota.</p>
+        <p>Ainda em 2020, o <a target="_blank" class="link-texto" href="https://estacaometeorologicafeliz.blogspot.com/">blog da estação</a> sofreu diversas atualizações, como criação de vídeos, criação de novos tópicos, criação de novos projetos com o Arduino, etc.</p>
+        <p>Com a dificuldade da pandemia, foi criada a Estação Meteorológica acessível, uma estação meteorológica que visa desenvolver conhecimentos em áreas de tecnologia e ciência, com um custo baixo e peças acessíveis, podendo ser construído em casa.</p>
+        <p>Ainda em 2021, não foi possível trabalhar no projeto de forma presencial, então o projeto está sendo continuado de forma remota.</p>
     </section>
     
-    <?php include './view/layout/rodape.php' ?>
+    <?php include 'layout/rodape.php' ?>
 </body>
 </html>
