@@ -29,30 +29,8 @@
     <section class="main">
         <h1>Dados sobre o tempo atual</h1>
 
-        <div class="estacao-tempo">
-            <div class="local">
-                <img class="icon-tempo" src="assets/img/weather-icons/sun.png" alt="sol">
-                <h1>Feliz, RS</h1>
-            </div>
-
-            <div class="temperatura">
-                <p class="descricao-icon">temperatura</p>
-                <img class="icon-termometro" src="assets/img/weather-icons/celsius.png" alt="celcius">
-                <p>23°C</p>
-            </div>
-
-            <div class="humidade">
-                <p class="descricao-icon">humidade</p>
-                <img class="icon-humidade" src="assets/img/weather-icons/humidity.png" alt="humidade">
-                <p>65%</p>
-            </div>
-
-            <div class="pressao">
-                <p class="descricao-icon">pressão</p>
-                <img class="icon-pressao" src="assets/img/weather-icons/pressure.png" alt="pressao">
-                <p>1018,3 hPa</p>
-            </div>
-        </div>
+        <?php include 'view/layout/painel_tempo.php';?>
+        
     </section>
 
     <section>
