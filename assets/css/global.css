@@ -57,7 +57,6 @@ h1, h2, h3, h4, h5, h6, th, td {
 }
 
 .estacao-tempo:hover {
-    background-color: #efe;
     border-color: white;
 }
 
@@ -216,6 +215,17 @@ i {
 
 .dropdown-content span {
     font-family: "Roboto", 'sans-serif';
+}
+
+.weatherwidget-io {
+    border: 1px solid var(--verde-claro);
+    margin-top: 1rem;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+
+.weatherwidget-io:hover {
+    border-color: white;
 }
 
 section {

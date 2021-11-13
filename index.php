@@ -12,6 +12,21 @@
         <h1>Dados sobre o tempo atual</h1>
 
         <?php include 'layout/painel_tempo.php' ?>
+
+        <a class="weatherwidget-io" href="https://forecast7.com/pt/n29d45n51d31/feliz/" data-icons="Climacons" data-mode="Forecast" data-theme="pure" >Previsão Feliz</a>
+
+        <script>
+            !function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src= 'https://weatherwidget.io/js/widget.min.js';
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            } (document, 'script', 'weatherwidget-io-js');
+        </script>
+
     </section>
     <section>
         <h1>Sobre</h1>

@@ -1,7 +1,22 @@
 <?php include 'config/db.php' ?>
+
 <div class="estacao-tempo">
     <div class="local">
-        <img class="icon-tempo" src="assets/img/weather-icons/cloudy-day.png" alt="tempo">
+        <?php 
+            date_default_timezone_set('America/Sao_Paulo');
+            $today = date("H");
+
+            if ($today >= 18 && $today <= 5) {
+                echo "<img class=\"icon-tempo\" src=\"assets/img/weather-icons/night.png\" alt=\"tempo\">\n";
+            } else {
+
+                if ($t['umidade'] >= 60 && $t['temperatura'] <= 30) {
+                    echo "<img class=\"icon-tempo\" src=\"assets/img/weather-icons/cloudy-day.png\" alt=\"tempo\">\n";
+                } else {
+                    echo "<img class=\"icon-tempo\" src=\"assets/img/weather-icons/sun.png\" alt=\"tempo\">\n";
+                }
+            }
+        ?>
         <h1>Feliz, RS</h1>
     </div>
 
