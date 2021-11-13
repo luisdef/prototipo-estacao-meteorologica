@@ -163,7 +163,7 @@ img.logo {
 .dropdown {
     display: none;
     float: right;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 i {
