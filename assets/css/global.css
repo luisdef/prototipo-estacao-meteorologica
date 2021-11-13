@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6, th, td {
 .icon-tempo {
     width: 5rem;
     height: auto;
+    transition: 0.4s;
 }
 
 .descricao-icon {
@@ -75,6 +76,14 @@ h1, h2, h3, h4, h5, h6, th, td {
 .icon-termometro, .icon-umidade, .icon-pressao {
     width: 4rem;
     height: auto;
+    transition: 0.4s;
+}
+
+.icon-tempo:hover,
+.icon-termometro:hover,
+.icon-umidade:hover,
+.icon-pressao:hover {
+    transform: translate(0, -2px);
 }
 
 .temperatura, .humidade, .pressao, .local {
@@ -173,7 +182,7 @@ section {
     display: inline-block;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 31%;
+    width: 25%;
     border-radius: 4px;
     margin: 1%;
 }
@@ -195,7 +204,7 @@ section {
     display: inline-block;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 48.7%;
+    width: 40%;
     border-radius: 4px;
     margin: 0.5%;
     margin-bottom: 1.5%;
@@ -251,8 +260,20 @@ footer p {
 }
 
 @media only screen and (max-width: 1180px) {
+    body {
+        font-size: 1rem !important;
+    }
+
     .bar {
         margin-left: 0;
         margin: 2rem 0;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card-yt {
+        width: 100%;
     }
 }
