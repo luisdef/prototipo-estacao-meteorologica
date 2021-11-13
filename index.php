@@ -13,7 +13,6 @@
 
         <?php include 'layout/painel_tempo.php' ?>
     </section>
-
     <section>
         <h1>Sobre</h1>
         

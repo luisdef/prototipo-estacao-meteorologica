@@ -16,7 +16,7 @@
     </div>
 
     <div class="humidade">
-        <p class="descricao-icon">humidade</p>
+        <p class="descricao-icon">umidade</p>
         <img class="icon-umidade" src="assets/img/weather-icons/humidity.png" alt="umidade">
         <p>
             <?php
