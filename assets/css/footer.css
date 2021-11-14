@@ -1,0 +1,28 @@
+footer {
+    display: flex;
+    overflow: hidden;
+    background-color: var(--verde-claro);
+    padding: 1.1% 10%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 1.1rem;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+footer p {
+    color: white;
+    font-size: 1.1rem;
+}

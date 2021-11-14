@@ -2,11 +2,11 @@
 
 <div class="estacao-tempo">
     <div class="local">
-        <?php 
-            date_default_timezone_set('America/Sao_Paulo');
-            $today = date("H");
+        <?php
+            $hora = date_create($t['horac']);
+            $hora_atual = date_format($hora, 'H');
 
-            if ($today >= 18 && $today <= 5) {
+            if ($hora_atual >= 18 || $hora_atual <= 5) {
                 echo "<img class=\"icon-tempo\" src=\"assets/img/weather-icons/night.png\" alt=\"tempo\">\n";
             } else {
 
@@ -41,11 +41,11 @@
     </div>
 
     <div class="pressao">
-        <p class="descricao-icon">pressão</p>
+        <p class="descricao-icon">pressão atm.</p>
         <img class="icon-pressao" src="assets/img/weather-icons/pressure.png" alt="pressao">
         <p>
             <?php
-                echo number_format($t['pressao'], 1, ",", ".").' hPa';
+                echo number_format($t['pressao'], 2, ",", ".").' hPa';
             ?>
         </p>
     </div>

@@ -1,0 +1,28 @@
+
+.componentes {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.componentes td, .componentes th {
+    border: 2px solid lightcyan;
+    padding: 8px;
+}
+
+.componentes tr:nth-child(even) {
+    background-color: #f2f2f2;
+    transition: 0.2s;
+}
+
+.componentes tr:hover {
+    background-color: #ddd;
+    transition: 0.2s;
+}
+
+.componentes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--verde-claro);
+    color: white;
+}

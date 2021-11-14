@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <?php include 'layout/global_head.php' ?>
+    
+    <link rel="stylesheet" href="./assets/css/estacao-painel.css">
+    <link rel="stylesheet" href="./assets/css/tabela-valores.css">
 
     <title>Estação IFRS</title>
 </head>
@@ -11,7 +14,7 @@
     <section>
         <h1>Dados sobre o tempo atual</h1>
 
-        <?php include 'layout/painel_tempo.php' ?>
+        <?php include 'config/painel_tempo.php' ?>
 
         <a class="weatherwidget-io" href="https://forecast7.com/pt/n29d45n51d31/feliz/" data-icons="Climacons" data-mode="Forecast" data-theme="pure" >Previsão Feliz</a>
 
@@ -34,6 +37,18 @@
         <p>Este projeto tem como objetivo ensinar física de forma prática e didática, por meio softwares livres e hardware aberto, neste caso, o Arduino!</p>
 
         <p>Com o Arduino é desenvolvido uma “Estação Meteorológica” de baixo custo, que estuda temas ligados à áreas da ciência e tecnologia através dos fenômenos climáticos captados e observados através da Estação.</p>
+    </section>
+
+    <section>
+        <h1>Histórico do Projeto</h1>
+        <p>O projeto de Ensino ocorre todo ano desde 2016, começou de uma forma básica com apenas alguns sensores como: DHT11, LDR, LM35 e BMP180.</p>
+        <p>Em 2017 foram incorporados no projeto um pluviômetro de báscula digital, um anemômetro, além da montagem estrutural com canos de PVC.</p>
+        <p>Em 2018 foi criado o blog da Estação Meteorológica IFRS - Campus Feliz, com o objetivo de divulgar o projeto e a metodologia utilizada na construção da mesma.</p>
+        <p>Em 2019 realizou-se no dia 2 de setembro, uma visita técnica ao Inmet 8° DISME.</p>
+        <p>Em 2020, por causa do distanciamento social, as reuniões da estação tiveram que ser adaptadas de forma remota.</p>
+        <p>Ainda em 2020, o <a target="_blank" class="link-texto" href="https://estacaometeorologicafeliz.blogspot.com/">blog da estação</a> sofreu diversas atualizações, como criação de vídeos, criação de novos tópicos, criação de novos projetos com o Arduino, etc.</p>
+        <p>Com a dificuldade da pandemia, foi criada a Estação Meteorológica acessível, uma estação meteorológica que visa desenvolver conhecimentos em áreas de tecnologia e ciência, com um custo baixo e peças acessíveis, podendo ser construído em casa.</p>
+        <p>Ainda em 2021, não foi possível trabalhar no projeto de forma presencial, então o projeto está sendo continuado de forma remota.</p>
     </section>
 
     <section>
@@ -81,18 +96,6 @@
             </tbody>
         </table>
         </center>
-    </section>
-
-    <section>
-        <h1>Histórico do Projeto</h1>
-        <p>O projeto de Ensino ocorre todo ano desde 2016, começou de uma forma básica com apenas alguns sensores como: DHT11, LDR, LM35 e BMP180.</p>
-        <p>Em 2017 foram incorporados no projeto um pluviômetro de báscula digital, um anemômetro, além da montagem estrutural com canos de PVC.</p>
-        <p>Em 2018 foi criado o blog da Estação Meteorológica IFRS - Campus Feliz, com o objetivo de divulgar o projeto e a metodologia utilizada na construção da mesma.</p>
-        <p>Em 2019 realizou-se no dia 2 de setembro, uma visita técnica ao Inmet 8° DISME.</p>
-        <p>Em 2020, por causa do distanciamento social, as reuniões da estação tiveram que ser adaptadas de forma remota.</p>
-        <p>Ainda em 2020, o <a target="_blank" class="link-texto" href="https://estacaometeorologicafeliz.blogspot.com/">blog da estação</a> sofreu diversas atualizações, como criação de vídeos, criação de novos tópicos, criação de novos projetos com o Arduino, etc.</p>
-        <p>Com a dificuldade da pandemia, foi criada a Estação Meteorológica acessível, uma estação meteorológica que visa desenvolver conhecimentos em áreas de tecnologia e ciência, com um custo baixo e peças acessíveis, podendo ser construído em casa.</p>
-        <p>Ainda em 2021, não foi possível trabalhar no projeto de forma presencial, então o projeto está sendo continuado de forma remota.</p>
     </section>
     
     <?php include 'layout/rodape.php' ?>

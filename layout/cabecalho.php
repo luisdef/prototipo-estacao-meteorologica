@@ -9,7 +9,7 @@
     </div>
     <div class="dropdown">
         <button class="dropbtn">
-            <i class="fa fa-list-ul" aria-hidden="true"></i>
+            <i class="fa fa-list-ul" aria-hidden="true"> <span>Menu</span></i>
         </button>
         <div class="dropdown-content">
             <a href="index.php" class="fa fa-home"> <span>Início</span></a>
