@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./assets/css/estacao-painel.css">
     <link rel="stylesheet" href="./assets/css/tabela-valores.css">
 
-    <title>Estação IFRS</title>
+    <title>Estação Meteorológica IFRS</title>
 </head>
 <body>
     <?php include 'layout/cabecalho.php' ?>    

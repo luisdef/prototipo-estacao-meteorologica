@@ -1,5 +1,5 @@
 <nav>
-    <a href="index.php"><img class="logo" src="./assets/img/logo.png" alt="Logo"></a>
+    <a href="index.php"><img class="logo" src="./assets/img/new_logo.png" alt="Logo"></a>
     <div class="bar">
         <a href="index.php" class="fa fa-home"> <span>Início</span></a>
         <a href="projetos.php" class="fa fa-microchip"> <span>Projetos</span></a>

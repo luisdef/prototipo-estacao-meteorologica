@@ -55,7 +55,7 @@
         <img class="icon-lum" src="assets/img/weather-icons/lamp.png" alt="pressao">
         <p>
             <?php
-                echo number_format($t['luminosidade'], 1, ",", ".").' lux';
+                echo number_format($t['luminosidade'], 1, ",", ".").' lm';
             ?>
         </p>
     </div>

@@ -11,9 +11,9 @@ nav {
 }
 
 img.logo {
-    width: 80px;
-    height: 65px;
-    padding: 12px;
+    width: 6rem;
+    height: auto;
+    padding: 22px 0;
 }
 
 .bar {
