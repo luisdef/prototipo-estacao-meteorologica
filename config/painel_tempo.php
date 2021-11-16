@@ -11,7 +11,13 @@
             } else {
 
                 if ($t['umidade'] >= 60 && $t['temperatura'] <= 30) {
-                    echo "<img class=\"icon-tempo\" src=\"assets/img/weather-icons/cloudy-day.png\" alt=\"tempo\">\n";
+                    if ($t['umidade'] >= 80 && $t['luminosidade'] <= 2000) {
+                        echo "<img class=\"icon-tempo\" src=\"assets/img/weather-icons/rain.png\" alt=\"tempo\">\n";
+                    }
+                    else {
+                        echo "<img class=\"icon-tempo\" src=\"assets/img/weather-icons/cloudy-day.png\" alt=\"tempo\">\n";
+                    }
+
                 } else {
                     echo "<img class=\"icon-tempo\" src=\"assets/img/weather-icons/sun.png\" alt=\"tempo\">\n";
                 }
