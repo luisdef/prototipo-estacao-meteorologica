@@ -50,12 +50,21 @@
         </p>
     </div>
 
+    <div class="lum">
+        <p class="descricao-icon">luminosidade</p>
+        <img class="icon-lum" src="assets/img/weather-icons/lamp.png" alt="pressao">
+        <p>
+            <?php
+                echo number_format($t['luminosidade'], 1, ",", ".").' lux';
+            ?>
+        </p>
+    </div>
+
     <p id="data-tempo">
         consultado
         <?php
             $data = date_create($t['datac']);
             echo ' '.date_format($data, 'd/m/Y').' às ';
-            $hora = date_create($t['horac']);
             echo date_format($hora, 'H:i')
         ?>
     </p>

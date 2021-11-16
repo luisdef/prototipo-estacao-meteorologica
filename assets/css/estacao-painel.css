@@ -39,7 +39,7 @@
     font-size: 0.9rem;
 }
 
-.icon-termometro, .icon-umidade, .icon-pressao {
+.icon-termometro, .icon-umidade, .icon-pressao, .icon-lum {
     width: 4rem;
     height: auto;
     transition: 0.4s;
@@ -48,11 +48,13 @@
 .icon-tempo:hover,
 .icon-termometro:hover,
 .icon-umidade:hover,
-.icon-pressao:hover {
+.icon-pressao:hover,
+.icon-lum:hover {
     transform: translate(0, -2px);
+    cursor: pointer;
 }
 
-.temperatura, .humidade, .pressao, .local {
+.temperatura, .humidade, .pressao, .local, .lum {
     text-align: center;
     align-items: center;
     align-content: center;
