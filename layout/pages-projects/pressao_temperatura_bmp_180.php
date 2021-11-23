@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../../assets/css/global.css">
     <link rel="stylesheet" href="../../assets/css/menu-bar.css">
     <link rel="stylesheet" href="../../assets/css/footer.css">
-    <title>Temperatura com LM35</title>
+    <title>Pressão/Temperatura (BMP-180)</title>
 </head>
 <body>
 <nav>
@@ -31,33 +31,28 @@
         </div>
     </div>
 </nav>
-    <section>
-        <h1>Temperatura com LM35</h1>
+<section>
+        <h1>Pressão/Temperatura (BMP-180)</h1>
         <div class="text-project">
             <h3>Objetivo:</h3>
-            <p>Criar um medidor de temperatura. Este projeto irá para fazer com que o sensor LM35 sinalize a temperatura do ambiente</p>
+            <p>Criar um sistema de pressão e temperatura. Este projeto irá fazer com que o sensor BMP180 sinalize a  pressão e temperatura do ambiente.</p>
             <h3>Componentes necessários:</h3>
-            <p>Sensor LM35;</p>
-            <p>3 fios jumper;</p>
             <p>Protoboard;</p>
+            <p>Sensor BMP-180 Breakout (GY-68)</p>
+            <p>Quatro fios jumper;</p>
             <p>Um cabo USB;</p>
-            <p>Um computador com a IDE do Arduino instalada;</p>
+            <p>Um computador com a IDE do arduino instalado;</p>
             <p>Arduino MEGA 2560.</p>
-            <br>
-            <p>Nesse sistema iremos medir a temperatura ambiente de certo local, para fazer isso usaremos o sensor LM35. Devemos ter cuidado ao conectar ele no arduino, ele deve estar com sua parte plana virada para a pessoa, depois disso iremos conectar em sua perna mais a direita o fio que será conectado ao GND, na sua perna mais da esquerda o fio que é conectado aos 5v e na perna do meio o fio que é conectado ao analógico 1.</p>
+            <p>O sensor BMP180, é um sensor que coleta a pressão atmosférica do local, é um sensor compacto e muito eficiente, utilizando bem pouca energia e ocupando pouco espaço.</p>
             <h3>Montagem do Circuito:</h3>
             <p>Conecte os componentes no Protoboard como mostra a figura abaixo. Verifique cuidadosamente os cabos de ligação antes de ligar seu Arduino. Lembre-se que o Arduino deve estar totalmente desconectado da força enquanto você monta o circuito.</p>
-            <br>
-            <h3>Para ver a temperatura que o sensor está detectando:</h3>
+            <h3>Bibliotecas necessárias:</h3>
+            <a href="https://github.com/adafruit/Adafruit-BMP085-Library">Adafruit-DHT-BMP085-library</a>
+            <a href="https://github.com/PaulStoffregen/Wire">Wire-library</a>
+            <h3>Para ver os dados que o sensor está detectando:</h3>
             <p><strong>Passo 1:</strong> Vá em Ferramentas(Tools) e Monitor Serial(Serial Monitor) ou clique Ctrl+Shift+M.</p>
             <p><strong>Passo 2:</strong> Os dados coletados do sensor aparecerão nessa janela. </p>
             <p>Obs: O nome da janela pode mudar dependendo da entrada do seu arduino.</p>
-            <center>
-                <h4>Veja o vídeo abaixo com a montagem passo a passo:</h4>
-                <iframe width="560" height="349" type="text/html" src="https://www.youtube.com/embed/0BtFS_0ex8U" frameborder="0" allowfullscreen></iframe>
-            </center>
-            
-            
         </div>
     </section>
     <?php include '../rodape.php' ?>

@@ -33,7 +33,7 @@
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/bmp180.png" alt="" srcset="">
-                    <a target="_blank" href="https://estacaometeorologicafeliz.blogspot.com/2018/05/sistema-de-pressao-com-luminosidade.html"><p><b>Pressão/Temperatura - BMP180</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/pressao_temperatura_bmp_180.php"><p><b>Pressão/Temperatura - BMP180</b></p></a>
                 </div>
             </div>
 
