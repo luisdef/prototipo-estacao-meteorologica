@@ -26,7 +26,7 @@
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/LDR.png" alt="" srcset="">
-                    <a target="_blank" href="https://estacaometeorologicafeliz.blogspot.com/2020/09/luminosidade-com-ldr.html"><p><b>Luminosidade - LDR</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/luminosidade_com_ldr.php"><p><b>Luminosidade - LDR</b></p></a>
                 </div>
             </div>
             
