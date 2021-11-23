@@ -19,7 +19,7 @@
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/LM35.png" alt="" srcset="">
-                    <a target="_blank" href="https://estacaometeorologicafeliz.blogspot.com/2018/05/sistema-de-temperatura.html"><p><b>Temperatura - LM35</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/temperatura_lm_35.php"><p><b>Temperatura - LM35</b></p></a>
                 </div>
             </div>
 
