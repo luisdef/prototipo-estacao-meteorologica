@@ -19,21 +19,21 @@
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/LM35.png" alt="" srcset="">
-                    <a target="_blank" href="./layout/pages-projects/temperatura_lm_35.php"><p><b>Temperatura - LM35</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/temperatura-lm-35.php"><p><b>Temperatura - LM35</b></p></a>
                 </div>
             </div>
 
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/LDR.png" alt="" srcset="">
-                    <a target="_blank" href="./layout/pages-projects/luminosidade_com_ldr.php"><p><b>Luminosidade - LDR</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/luminosidade-com-ldr.php"><p><b>Luminosidade - LDR</b></p></a>
                 </div>
             </div>
             
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/bmp180.png" alt="" srcset="">
-                    <a target="_blank" href="./layout/pages-projects/pressao_temperatura_bmp_180.php"><p><b>Pressão/Temperatura - BMP180</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/pressao-temperatura-bmp-180.php"><p><b>Pressão/Temperatura - BMP180</b></p></a>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/LM35_LDR.jpg" alt="" srcset="">
-                    <a target="_blank" href="./layout/pages-projects/temperatura_lm35_luminosidade_ldr.php"><p><b>Temperatura (LM35) / Luminosidade (LDR)</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/temperatura-lm35-luminosidade-ldr.php"><p><b>Temperatura (LM35) / Luminosidade (LDR)</b></p></a>
                 </div>
             </div>
 
