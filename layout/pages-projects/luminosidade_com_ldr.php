@@ -49,7 +49,7 @@
             <h3>Montagem do Circuito:</h3>
             <p>Conecte os componentes no Protoboard como mostra a figura abaixo. Verifique cuidadosamente os cabos de ligação antes de ligar seu Arduino. Lembre-se que o Arduino deve estar totalmente desconectado da força enquanto você monta o circuito.</p>
             <h3>Para ver os dados que o sensor está detectando:</h3>
-            <p><strong>Passo 1:</strong> Vá em Ferramentas(Tools) e Monitor Serial(Serial Monitor) ou clique Ctrl+Shift+M.</p>
+            <p><strong>Passo 1:</strong> Vá em Ferramentas (Tools) e Monitor Serial (Serial Monitor) ou clique Ctrl+Shift+M.</p>
             <p><strong>Passo 2:</strong> Os dados coletados do sensor aparecerão nessa janela. </p>
             <p>Obs: O nome da janela pode mudar dependendo da entrada do seu arduino.</p>
             <center>

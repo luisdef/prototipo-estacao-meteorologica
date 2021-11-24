@@ -47,7 +47,7 @@
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/LM35_LDR.jpg" alt="" srcset="">
-                    <a target="_blank" href="https://estacaometeorologicafeliz.blogspot.com/2018/07/luminosidade-e-temperatura.html"><p><b>Temperatura (LM35) / Luminosidade (LDR)</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/temperatura_lm35_luminosidade_ldr.php"><p><b>Temperatura (LM35) / Luminosidade (LDR)</b></p></a>
                 </div>
             </div>
 
