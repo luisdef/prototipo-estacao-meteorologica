@@ -39,7 +39,7 @@
 
             <div class="column">
                 <div class="cards">
-                    <a target="_blank" href="https://estacaometeorologicafeliz.blogspot.com/2018/06/sistema-da-sinaleira.html"><img src="assets/img/projects/sinaleira.png.PNG" alt="" srcset="">
+                    <a target="_blank" href="./layout/pages-projects/sinaleira.php"><img src="assets/img/projects/sinaleira.png.PNG" alt="" srcset="">
                     <p><b>Sinaleira</b></p></a>
                 </div>
             </div>
