@@ -54,7 +54,7 @@
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/DHT11.png" alt="" srcset="">
-                    <a target="_blank" href="https://estacaometeorologicafeliz.blogspot.com/2018/06/sistema-de-temperatura-com-umidade.html"><p><b>Temperatura / Umidade - DHT11</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/temperatura-e-umidade-dht11.php"><p><b>Temperatura / Umidade - DHT11</b></p></a>
                 </div>
             </div>
 

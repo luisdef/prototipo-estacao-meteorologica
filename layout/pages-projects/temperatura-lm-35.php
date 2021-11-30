@@ -47,7 +47,7 @@
             <p>Nesse sistema iremos medir a temperatura ambiente de certo local, para fazer isso usaremos o sensor LM35. Devemos ter cuidado ao conectar ele no arduino, ele deve estar com sua parte plana virada para a pessoa, depois disso iremos conectar em sua perna mais a direita o fio que será conectado ao GND, na sua perna mais da esquerda o fio que é conectado aos 5v e na perna do meio o fio que é conectado ao analógico 1.</p>
             <h3>Montagem do Circuito:</h3>
             <p>Conecte os componentes no Protoboard como mostra a figura abaixo. Verifique cuidadosamente os cabos de ligação antes de ligar seu Arduino. Lembre-se que o Arduino deve estar totalmente desconectado da força enquanto você monta o circuito.</p>
-            <br>
+            <center><img src="../../assets/img/projects/LM35.png" alt="" height="400" width="400"></center>
             <h3>Para ver a temperatura que o sensor está detectando:</h3>
             <p><strong>Passo 1:</strong> Vá em Ferramentas (Tools) e Monitor Serial (Serial Monitor) ou clique Ctrl+Shift+M.</p>
             <p><strong>Passo 2:</strong> Os dados coletados do sensor aparecerão nessa janela. </p>
