@@ -47,11 +47,15 @@
             <p>Nesse sistema iremos medir a temperatura ambiente de certo local, para fazer isso usaremos o sensor LM35. Devemos ter cuidado ao conectar ele no arduino, ele deve estar com sua parte plana virada para a pessoa, depois disso iremos conectar em sua perna mais a direita o fio que será conectado ao GND, na sua perna mais da esquerda o fio que é conectado aos 5v e na perna do meio o fio que é conectado ao analógico 1.</p>
             <h3>Montagem do Circuito:</h3>
             <p>Conecte os componentes no Protoboard como mostra a figura abaixo. Verifique cuidadosamente os cabos de ligação antes de ligar seu Arduino. Lembre-se que o Arduino deve estar totalmente desconectado da força enquanto você monta o circuito.</p>
-            <center><img src="../../assets/img/projects/LM35.png" alt="" height="400" width="400"></center>
-            <h3>Para ver a temperatura que o sensor está detectando:</h3>
-            <p><strong>Passo 1:</strong> Vá em Ferramentas (Tools) e Monitor Serial (Serial Monitor) ou clique Ctrl+Shift+M.</p>
-            <p><strong>Passo 2:</strong> Os dados coletados do sensor aparecerão nessa janela. </p>
-            <p>Obs: O nome da janela pode mudar dependendo da entrada do seu arduino.</p>
+            <center><img src="../../assets/img/projects/temperatura_com_lm35.png" alt=""></center>
+            <center>
+                <h3>Para ver a temperatura que o sensor está detectando:</h3>
+                <p><strong>Passo 1:</strong> Vá em Ferramentas (Tools) e Monitor Serial (Serial Monitor) ou clique Ctrl+Shift+M.</p>
+                <img src="../../assets/img/projects/imagem_passo1.png" alt="">
+                <p><strong>Passo 2:</strong> Os dados coletados do sensor aparecerão nessa janela. </p>
+                <img src="../../assets/img/projects/imagem_passo2_lm35.png" alt="">
+                <p>Obs: O nome da janela pode mudar dependendo da entrada do seu arduino.</p>
+            </center>
             <center>
                 <h4>Veja o vídeo abaixo com a montagem passo a passo:</h4>
                 <iframe width="560" height="349" type="text/html" src="https://www.youtube.com/embed/0BtFS_0ex8U" frameborder="0" allowfullscreen></iframe>
