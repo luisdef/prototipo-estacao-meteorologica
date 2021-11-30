@@ -68,7 +68,7 @@
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/BMP_DHT_LDR.png" alt="" srcset="">
-                    <a target="_blank" href="https://estacaometeorologicafeliz.blogspot.com/2020/09/objetivo-criar-um-projeto-arduino.html"><p><b>Pressão / Temperatura / Luminosidade / Umidade (DHT11, LDR, BMP180)</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/bmp180-ldr-e-dht11.php"><p><b>Pressão / Temperatura / Luminosidade / Umidade (DHT11, LDR, BMP180)</b></p></a>
                 </div>
             </div>
 
