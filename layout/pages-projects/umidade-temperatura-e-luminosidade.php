@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../../assets/css/global.css">
     <link rel="stylesheet" href="../../assets/css/menu-bar.css">
     <link rel="stylesheet" href="../../assets/css/footer.css">
-    <title>Temperatura e Umidade DHT11</title>
+    <title>Temperatura com LM35</title>
 </head>
 <body>
 <nav>
@@ -31,28 +31,26 @@
         </div>
     </div>
 </nav>
-<section>
-        <h1>Temperatura / Umidade DHT11</h1>
+    <section>
+        <h1>Umidade, Temperatura (DHT11) e Luminosidade (LDR)</h1>
         <div class="text-project">
             <h3>Objetivo:</h3>
-            <p>Criar um sistema de umidade e temperatura. Este projeto irá fazer com que o sensor DHT11 sinalize a temperatura e umidade no ambiente.</p>
+            <p>Criar um projeto Arduino juntando vários sensores para saber todos os dados possíveis.</p>
             <h3>Componentes necessários:</h3>
-            <p>Sensor DHT11;</p>
             <p>Protoboard;</p>
-            <p>Cinco fios jumper;</p>
-            <p>Um resistor de 10 kilo ohms; *</p>
+            <p>Sensor LDR;</p>
+            <p>Sensor DHT11;</p>
+            <p>Jumpers;</p>
+            <p>Resistor de 220 ohms; *</p>
+            <p>Resistor de 10K ohms; *</p>
             <p>Um cabo USB;</p>
-            <p>Um computador com a IDE do arduino instalado;</p>
-            <p>Arduino MEGA 2560.</p>
+            <p>Um computador com a IDE do Arduino instalada;</p>
+            <p>Arduino MEGA 2560 ou similar.</p>
             <p>* Um resistor é um componente que é utilizado para controle da quantidade de energia que sera transmitida a algum outro componente.</p>
-            <p>Nesse sistema utilizaremos o sensor DHT11, que diferente do DHT22 tem uma precisão menor em temperatura e uma faixa de leitura menor mas ele é mais rápido na parte de captura de dados.</p>
-            <h3>Montagem do Circuito:</h3>
-            <p>Conecte os componentes no Protoboard como mostra a figura abaixo. Verifique cuidadosamente os cabos de ligação antes de ligar seu Arduino. Lembre-se que o Arduino deve estar totalmente desconectado da força enquanto você monta o circuito.</p>
-            <h3>Bibliotecas neceessárias:</h3>
-            <a href="https://github.com/adafruit/DHT-sensor-library">Ardafuit-DHT-sensor-library</a>
             <br>
-            <a href="https://github.com/adafruit/Adafruit_Sensor">Ardafuit_Sensor</a>
-            <h3>Para ver os dados que o sensor está detectando:</h3>
+            <h3>Montagem do Circuito:</h3>
+            <p>Conecte os componentes no Arduino como mostra a figura abaixo. Verifique cuidadosamente os cabos de ligação antes de ligar seu Arduino. Lembre-se que o Arduino deve estar desconectado do computador durante a montagem.</p>
+            <h3>Para ver a temperatura que o sensor está detectando:</h3>
             <p><strong>Passo 1:</strong> Vá em Ferramentas (Tools) e Monitor Serial (Serial Monitor) ou clique Ctrl+Shift+M.</p>
             <p><strong>Passo 2:</strong> Os dados coletados do sensor aparecerão nessa janela. </p>
             <p>Obs: O nome da janela pode mudar dependendo da entrada do seu arduino.</p>

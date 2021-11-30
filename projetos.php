@@ -61,7 +61,7 @@
             <div class="column">
                 <div class="cards">
                     <img src="assets/img/projects/DHT11.png" alt="" srcset="">
-                    <a target="_blank" href="https://estacaometeorologicafeliz.blogspot.com/2020/09/umidadedht11-temperaturadht11-e-lm35-e.html"><p><b>Umidade, Temperatura (DHT11) e Luminosidade (LDR)</b></p></a>
+                    <a target="_blank" href="./layout/pages-projects/umidade-temperatura-e-luminosidade.php"><p><b>Umidade, Temperatura (DHT11) e Luminosidade (LDR)</b></p></a>
                 </div>
             </div>
 
