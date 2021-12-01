@@ -48,11 +48,17 @@
             <p>Nesse sistema é adicionado um sensor de luminosidade, o sensor LDR, que significa Light Dependent Resistor (ou seja, resistor dependente de luz). Ele resumidamente consiste em uma diferença de potencial que está proporcionalmente ligado a quantidade de luz recebida pelo sensor.</p>
             <h3>Montagem do Circuito:</h3>
             <p>Conecte os componentes no Protoboard como mostra a figura abaixo. Verifique cuidadosamente os cabos de ligação antes de ligar seu Arduino. Lembre-se que o Arduino deve estar totalmente desconectado da força enquanto você monta o circuito.</p>
+            <center>
+                <img src="../../assets/img/projects/print_luminosidade_com_ldr.png" alt="">
+                <p>(Fio vermelho no 5V, preto no GND e azul no A1)</p>
+            </center>
             <h3>Para ver os dados que o sensor está detectando:</h3>
             <p><strong>Passo 1:</strong> Vá em Ferramentas (Tools) e Monitor Serial (Serial Monitor) ou clique Ctrl+Shift+M.</p>
             <p><strong>Passo 2:</strong> Os dados coletados do sensor aparecerão nessa janela. </p>
             <p>Obs: O nome da janela pode mudar dependendo da entrada do seu arduino.</p>
             <center>
+                <h3>Sistema finalizado:</h3>
+                <img src="../../assets/img/projects/sistema_luminosidade_com_ldr.png" alt="">
                 <h4>Veja o vídeo abaixo com a montagem passo a passo:</h4>
                 <iframe width="560" height="349" type="text/html" src="https://www.youtube.com/embed/ch8PNBajWGY" frameborder="0" allowfullscreen></iframe>
             </center>
