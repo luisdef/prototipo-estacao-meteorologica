@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../../assets/css/global.css">
     <link rel="stylesheet" href="../../assets/css/menu-bar.css">
     <link rel="stylesheet" href="../../assets/css/footer.css">
-    <title>Temperatura com LM35</title>
+    <title>Umidade, Temperatura (DHT11) e Luminosidade (LDR)</title>
 </head>
 <body>
 <nav>
