@@ -50,10 +50,18 @@
             <p>E também iremos medir a temperatura ambiente de certo local, para fazer isso usaremos o sensor LM35. Devemos ter cuidado ao conectar ele no arduino, ele deve estar com sua parte plana virada para a pessoa.</p>
             <h3>Montagem do Circuito:</h3>
             <p>Conecte os componentes no Protoboard como mostra a figura abaixo. Verifique cuidadosamente os cabos de ligação antes de ligar seu Arduino. Lembre-se que o Arduino deve estar totalmente desconectado da força enquanto você monta o circuito.</p>
-            <h3>Para ver a temperatura e a luminosidade que o sensor está detectando:</h3>
-            <p><strong>Passo 1:</strong> Vá em Ferramentas (Tools) e Monitor Serial (Serial Monitor) ou clique Ctrl+Shift+M.</p>
-            <p><strong>Passo 2:</strong> Os dados coletados do sensor aparecerão nessa janela. </p>
-            <p>Obs: O nome da janela pode mudar dependendo da entrada do seu arduino.</p>
+            <center>
+                <img src="../../assets/img/projects/print_luminosidade_temperatura.png" alt="">
+                <p>(Fio azul A0, marrom A1, Preto GND e vermelho 5V)</p>
+                <h3>Para ver a temperatura e a luminosidade que o sensor está detectando:</h3>
+                <p><strong>Passo 1:</strong> Vá em Ferramentas (Tools) e Monitor Serial (Serial Monitor) ou clique Ctrl+Shift+M.</p>
+                <img src="../../assets/img/projects/passo1_temperatura_luminosidade.png" alt="">
+                <p><strong>Passo 2:</strong> Os dados coletados do sensor aparecerão nessa janela. </p>
+                <img src="../../assets/img/projects/passo2_temperatura_luminosidade.png" alt="">
+                <p>Obs: O nome da janela pode mudar dependendo da entrada do seu arduino.</p>
+                <h3>Sistema finalizado:</h3>
+                <img src="../../assets/img/projects/sistema_temperatura_luminosidade.png" alt="">
+            </center>
         </div>
     </section>
     <?php include '../rodape.php' ?>
