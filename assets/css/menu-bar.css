@@ -115,6 +115,14 @@ i {
         font-size: 1rem !important;
     }
 
+    nav {
+        height: 4.5rem;
+    }
+
+    .empty-space {
+        padding-top: 4.5rem;
+    }
+
     .bar a {
         display: none;
     }
