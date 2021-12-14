@@ -16,7 +16,7 @@
         <section class="participantes">
             <h2>Participantes e ex-participantes do projeto</h2>
             <h4>Email para contato: </h4>
-            <p>estacao.meteorologica@feliz.ifrs.edu.br</p>
+            <p><a class="link-texto" href="mailto:estacao.meteorologica@feliz.ifrs.edu.br">estacao.meteorologica@feliz.ifrs.edu.br</a></p>
             <h4>Coordenadores do projeto: </h4>
             <p>Eloir De Carli</p>
             <p>Sandro Oliveira Dorneles</p>
