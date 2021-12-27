@@ -1,5 +1,5 @@
 
-.estacao-tempo {
+.estacao-tempo, #grafico {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,7 +45,6 @@
     transition: 0.4s;
 }
 
-.icon-tempo:hover,
 .icon-termometro:hover,
 .icon-umidade:hover,
 .icon-pressao:hover,
@@ -74,4 +73,13 @@
 
 .weatherwidget-io:hover {
     border-color: white;
+}
+
+#grafico-temp,
+#grafico-umid,
+#grafico-pressao,
+#grafico-lum {
+    width: 80%;
+    height: 100%;
+    text-align: center;
 }

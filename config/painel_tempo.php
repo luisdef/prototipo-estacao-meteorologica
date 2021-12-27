@@ -28,7 +28,7 @@
 
     <div class="temperatura">
         <p class="descricao-icon">temperatura</p>
-        <img class="icon-termometro" src="assets/img/weather-icons/celsius.png" alt="celcius">
+        <a onclick="addGraficoTemperatura();"><img class="icon-termometro" src="assets/img/weather-icons/celsius.png" alt="celcius"></a>
         <p>
             <?php
                 echo number_format($t['temperatura'], 1, ",", ".").' °C';
@@ -38,7 +38,7 @@
 
     <div class="humidade">
         <p class="descricao-icon">umidade</p>
-        <img class="icon-umidade" src="assets/img/weather-icons/humidity.png" alt="umidade">
+        <a onclick="addGraficoUmidade();"><img class="icon-umidade" src="assets/img/weather-icons/humidity.png" alt="umidade"></a>
         <p>
             <?php
                 echo number_format($t['umidade'], 1, ",", ".").' %';
@@ -48,7 +48,7 @@
 
     <div class="pressao">
         <p class="descricao-icon">pressão atm.</p>
-        <img class="icon-pressao" src="assets/img/weather-icons/pressure.png" alt="pressao">
+        <a onclick="addGraficoPressao();"><img class="icon-pressao" src="assets/img/weather-icons/pressure.png" alt="pressao"></a>
         <p>
             <?php
                 echo number_format($t['pressao'], 2, ",", ".").' hPa';
@@ -58,7 +58,7 @@
 
     <div class="lum">
         <p class="descricao-icon">luminosidade</p>
-        <img class="icon-lum" src="assets/img/weather-icons/lamp.png" alt="pressao">
+        <a onclick="addGraficoLuminosidade();"><img class="icon-lum" src="assets/img/weather-icons/lamp.png" alt="pressao"></a>
         <p>
             <?php
                 echo number_format($t['luminosidade'], 1, ",", ".").' lm';
@@ -74,4 +74,7 @@
             echo date_format($hora, 'H:i')
         ?>
     </p>
+</div>
+
+<div id="grafico">
 </div>
