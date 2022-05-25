@@ -23,7 +23,6 @@
             <p>Moser Fagundes</p>
             <h4>Participantes atuais:</h4>
             <p>Andrius Nunes Zimmer</p>
-            <p>Nícolas Rodrigues Silva </p>
             <h4>Participantes voluntários:</h4>
             <p>Luis Felipe Assmann</p>
             <p>Matheus Persch</p>
@@ -31,6 +30,7 @@
         </section>
         <section>
             <h4>Ex participantes: </h4>
+            <p>Nícolas Rodrigues Silva </p>
             <p>Paulo Leandro S. Henz</p>
             <p>Solange Maria Fossa</p>
             <p>Gabriel Schnorrenberger</p>
